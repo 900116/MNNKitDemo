@@ -17,9 +17,23 @@ PODS:
     - MNNKitCore (~> 0.0.2)
 
 DEPENDENCIES:
-  - MNNFaceDetection (~> 0.0.1)
-  - MNNHandGestureDetection (~> 0.0.1)
-  - MNNPortraitSegmentation (~> 0.0.1)
+  - MNN (from `https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/c/9/MNN/0.2.1.7/MNN.podspec.json`)
+  - MNNFaceDetection (from `https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/d/0/f/MNNFaceDetection/0.0.1/MNNFaceDetection.podspec.json`)
+  - MNNHandGestureDetection (from `https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/7/9/e/MNNHandGestureDetection/0.0.1/MNNHandGestureDetection.podspec.json`)
+  - MNNKitCore (from `https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/7/3/0/MNNKitCore/0.0.2/MNNKitCore.podspec.json`)
+  - MNNPortraitSegmentation (from `https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/1/5/0/MNNPortraitSegmentation/0.0.1/MNNPortraitSegmentation.podspec.json`)
+
+EXTERNAL SOURCES:
+  MNN:
+    :podspec: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/c/9/MNN/0.2.1.7/MNN.podspec.json
+  MNNFaceDetection:
+    :podspec: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/d/0/f/MNNFaceDetection/0.0.1/MNNFaceDetection.podspec.json
+  MNNHandGestureDetection:
+    :podspec: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/7/9/e/MNNHandGestureDetection/0.0.1/MNNHandGestureDetection.podspec.json
+  MNNKitCore:
+    :podspec: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/7/3/0/MNNKitCore/0.0.2/MNNKitCore.podspec.json
+  MNNPortraitSegmentation:
+    :podspec: https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/1/5/0/MNNPortraitSegmentation/0.0.1/MNNPortraitSegmentation.podspec.json
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
@@ -29,6 +43,6 @@ SPEC CHECKSUMS:
   MNNKitCore: a596af76ee3ae51adadb50fb6f61e76d2cf90202
   MNNPortraitSegmentation: b0d5a86fad7faea4c023cb795aee62978069fbb7
 
-PODFILE CHECKSUM: 0cab5a39b90f77b3a1c8d615d479f654eb6b2901
+PODFILE CHECKSUM: f1a71746dc42ab433b75590794c5bce9d342eebb
 
 COCOAPODS: 1.2.0

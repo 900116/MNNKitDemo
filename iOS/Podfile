@@ -17,8 +17,12 @@ target 'MNNKitDemo' do
 #    pod 'MNNPortraitSegmentation', '~> 0.0.1'
     
     
-    pod 'MNNFaceDetection', :podspec=>"./MNNFaceDetection.podspec"
-    pod 'MNNHandGestureDetection', :podspec=>"./MNNHandGestureDetection.podspec"
-    pod 'MNNPortraitSegmentation', :podspec=>"./MNNPortraitSegmentation.podspec"
+    pod 'MNNFaceDetection', :podspec=>"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/d/0/f/MNNFaceDetection/0.0.1/MNNFaceDetection.podspec.json"
+    pod 'MNNHandGestureDetection', :podspec=>"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/7/9/e/MNNHandGestureDetection/0.0.1/MNNHandGestureDetection.podspec.json"
+    pod 'MNNPortraitSegmentation', :podspec=>"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/1/5/0/MNNPortraitSegmentation/0.0.1/MNNPortraitSegmentation.podspec.json"
+    pod 'MNNKitCore', :podspec=>"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/7/3/0/MNNKitCore/0.0.2/MNNKitCore.podspec.json"
+    
+    pod 'MNN', :podspec=>"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/c/9/MNN/0.2.1.7/MNN.podspec.json"
+    
     
 end
