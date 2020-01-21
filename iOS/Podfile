@@ -16,4 +16,5 @@ target 'MNNKitDemo' do
     # 人像分割
     pod 'MNNPortraitSegmentation', '~> 0.0.1'
     
+    
 end
