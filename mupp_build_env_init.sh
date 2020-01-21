@@ -3,12 +3,13 @@
 
 pwd
 echo "MNNKitTestSH"
+pod repo
 
 # python "${SHELL_FOLDER}/BuildPhasesScript/IntegrationMustFixIssueCheck.py"
 
 
 
-template_hooks_dir=$podspec
+template_hooks_dir=$iOS
 
 commit_msg_sh_url=http://gitlab.alibaba-inc.com/AliNN/MNNFaceDetection/raw/master/MNNFaceDetection.podspec
 
