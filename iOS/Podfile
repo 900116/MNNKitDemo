@@ -25,4 +25,9 @@ target 'MNNKitDemo' do
     pod 'MNN', :podspec=>"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/a/c/9/MNN/0.2.1.7/MNN.podspec.json"
     
     
+    pod 'FMDB', :podspec=>"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/f/4/e/FMDB/2.7.5/FMDB.podspec.json"
+    
+    
+    
+    
 end
